@@ -1,0 +1,32 @@
+{
+  "slug": "wordpress",
+  "name": "WordPress",
+  "description": "WordPress starter backed by MariaDB.",
+  "logo": "wordpress",
+  "runtime": "php",
+  "preset": "wordpress",
+  "database": "mariadb",
+  "redis": false,
+  "variables": [
+    {
+      "name": "WORDPRESS_DB_HOST",
+      "description": "MariaDB hostname and port supplied by YoMail.",
+      "secret": false
+    },
+    {
+      "name": "WORDPRESS_DB_NAME",
+      "description": "Database name supplied by YoMail.",
+      "secret": false
+    },
+    {
+      "name": "WORDPRESS_DB_USER",
+      "description": "Runtime database username supplied by YoMail.",
+      "secret": false
+    },
+    {
+      "name": "WORDPRESS_DB_PASSWORD",
+      "description": "Runtime database password supplied by YoMail.",
+      "secret": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "nextjs",
+  "name": "Next.js",
+  "description": "Minimal Next.js application starter.",
+  "logo": "nextjs",
+  "runtime": "node",
+  "preset": "nextjs",
+  "database": null,
+  "redis": false,
+  "variables": []
+}

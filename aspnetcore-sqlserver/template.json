@@ -1,0 +1,17 @@
+{
+  "slug": "aspnetcore-sqlserver",
+  "name": "ASP.NET Core + SQL Server",
+  "description": "ASP.NET Core starter with SQL Server connectivity.",
+  "logo": "aspnetcore-sqlserver",
+  "runtime": "aspnetcore",
+  "preset": "aspnetcore",
+  "database": "sqlserver",
+  "redis": false,
+  "variables": [
+    {
+      "name": "CONNECTIONSTRINGS__DEFAULT",
+      "description": "SQL Server runtime connection string supplied by YoMail.",
+      "secret": true
+    }
+  ]
+}

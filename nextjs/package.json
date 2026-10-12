@@ -1,0 +1,14 @@
+{
+  "name": "yomail-nextjs-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 8080"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}

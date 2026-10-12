@@ -1,0 +1,11 @@
+{
+  "slug": "fastapi",
+  "name": "FastAPI",
+  "description": "Minimal FastAPI HTTP service starter.",
+  "logo": "fastapi",
+  "runtime": "python",
+  "preset": "fastapi",
+  "database": null,
+  "redis": false,
+  "variables": []
+}

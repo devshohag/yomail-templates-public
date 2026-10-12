@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+**/bin/
+**/obj/
+**/node_modules/
+**/vendor/
+**/.next/
+**/__pycache__/
+*.py[cod]
